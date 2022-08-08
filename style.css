@@ -151,6 +151,9 @@ h1{
     
 }
 
-.G{
-    color: violet;
+.L{
+    background-color: rgb(197, 127, 197);
+    border-radius: 25px;
+    border: 0.5px solid black;
+    margin: 5px;
 }
