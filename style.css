@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 10px;
+}
+.dflix{
+    display: flex;
+
+}
+body{
+    background-image: linear-gradient(to right,#9490c896 ,#FBDED5);
+}
+nav{
+    padding-top: 50px;
+}
+h1{
+    font-size: 64px;
+    color: #824CEF;
+    
+}
+.spotcontent{
+    padding-top: 150px;
+    width: 40%;
+}
+.spotimage{
+    width: 60%;
+}
+.spotimage img{
+    width: 100%;
+}
+.phoneicon{
+    padding: 10px;
+    border-radius: 50px;
+    background-color: plum;
+}
+.shareicon{
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #FF9F81
+}
+.box1{
+    text-align: left;
+    margin: 5px; ;
+    padding-left: 30px;
+    display: flex;
+    justify-content: center;
+    
+}
+.colm{
+    padding: 25px;
+    margin: 6px;
+    display: flex;
+}
+.small{
+    margin: 45px;
+    background-color: white transparent;
+    border-radius: 10px;
+    max-width: 400px;
+    height: 150px;
+    border: 1px solid black;
+    box-shadow: 1px 2px black;
+}
+.B{
+    display: flex;
+}
+.T{
+    background-color: white;
+    border-radius: 25px;
+    border: 0.5px solid black;
+    margin: 5px;
+}
+.image{
+    margin: auto;
+    text-align: center;
+}
+.img h2{
+    font-size: 34px;
+    margin: 45px;
+}
+.why{
+    display: flex;
+    margin: 20px;
+    padding:auto;
+
+}
+.text{
+    
+    margin: auto;
+   
+}
+.blured2{
+    position: absolute;
+    left:1250 ;
+    top: 1550;
+}
+.blured4{
+    position: absolute;
+    left: 100px;
+    top: 1450px;
+}
+.bluredstar{
+    position: absolute;
+    left: 1550px;
+    top: 1200px;
+}
+.bottompng{
+    position: absolute;
+    top: 2700px;
+    left: px;
+    z-index: -1;
+}
+.top{
+    position: absolute;
+    left: 1190px;
+    top: 2420px;
+    z-index: -1;
+
+}
+#data{
+    
+    display: flex;
+    margin: 10% auto;
+    width: 670px;
+    padding: 10px;
+    border: 1px solid transparent;
+    box-shadow: 1px 1px 1px 1px white;
+    border-radius: 10px;
+
+}
+.D1{
+    color: white;
+    background-color: gray;
+    height: 250px;
+    padding: 2px;
+    width: 450px;
+    border: 1px solid white;
+    
+
+}
+.no{
+    display: flex;
+
+}
+.mail{
+    display: flex;
+
+}
+#data img {
+    width: 242px;
+    height: 254px;
+    margin: auto;
+    
+}
+
+.G{
+    color: violet;
+}
