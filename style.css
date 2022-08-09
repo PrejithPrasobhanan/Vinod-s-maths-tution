@@ -38,18 +38,25 @@ h1{
     background-color: #FF9F81
 }
 .box1{
-    text-align: left;
     margin: 5px; ;
     padding-left: 30px;
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-self: center;
     border-radius: 10px;
-   
+    
 }
 .colm{
     padding: 4px;
-    margin: 6px;
-    display: flex;
+    margin: -16px;
+    grid-column: span 1;
+    row-gap: 20px;
+    justify-self: center;
+    width: 476px;
+}
+.colm3{
+    grid-column: span 2;
+    justify-self: center;
 }
 .small{
     margin: 20px;
@@ -62,6 +69,7 @@ h1{
 }
 .B{
     display: flex;
+    margin: 8px;
 }
 .T{
     background-color: white;
@@ -78,9 +86,11 @@ h1{
     margin: 45px;
 }
 .why{
-    display: flex;
+    display:grid;
     margin: 20px;
     padding:auto;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 25px;
 
 }
 .text{
@@ -88,6 +98,7 @@ h1{
     margin: auto;
     border: 0.5px solid black;
     box-shadow: 1px 2px black;
+    grid-column: span 1;
    
 }
 .blured2{
@@ -108,14 +119,14 @@ h1{
 }
 .bottompng{
     position: absolute;
-    top: 2560px;
-    left: 450px;
+    top: 2440px;
+    left: 550px;
     z-index: -1;
 }
 .top{
     position: absolute;
-    left: 1190px;
-    top: 2282px;
+    left: 1100px;
+    top: 2130px;
     z-index: -1;
 
 }
@@ -123,21 +134,22 @@ h1{
     
     display: flex;
     margin: 10% auto;
-    width: 670px;
-    padding: 10px;
+    max-width: 526px;
+    min-width: 250px;
+    padding: 0px;
     border: 1px solid transparent;
-    box-shadow: 1px 1px 1px 1px white;
+    box-shadow: 1px 1px 1px 1px black;
     border-radius: 10px;
+    background-color: solid transparent whitesmoke;
 
 }
 .D1{
-    color: white;
-    background-color: gray;
-    height: 250px;
-    padding: 2px;
+    color: solid transparent;
+    background: linear-gradient(#a27af1 0%,#F0A6CA 90%);
+    padding: 10px;
     width: 450px;
-    border: 1px solid white;
-    
+    box-shadow: 1px 1px black;
+    border-radius: 0 10px 10px 0;
 
 }
 .no{
@@ -167,6 +179,48 @@ h1{
     padding: 20px;
     border: 0.5px solid black;
     box-shadow: 1px 2px black;
-    width: 350px; ;
+    width: 350px; 
+}
+.text3{
+
+    grid-column: span 3;
+}
+#identity{
+    margin: 0 20px;
+
 }
 
+
+
+@media only screen and (max-width:1000px){
+    .spotimage{
+        display: none;
+    }
+    .blured2{
+        display: none;
+    }
+    .blured4{
+        display: none;
+    }
+    .top{
+        display: none;
+    }
+    .bottompng{
+        display: none;
+    }
+    .colm{
+        grid-column: span 2;
+    }
+
+}
+
+@media only screen and (max-width:750px){
+   
+}
+
+
+@media only screen and (max-width:1245px){
+    .text{
+        grid-column: 3;
+    }
+}
